@@ -230,8 +230,8 @@ const Isa = () => {
 </video>
 <br/>
 <div style={{ display: 'flex', alignItems: 'center' }}>
-  <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">
-    <GitHubIcon style={{ fontSize: 40, marginRight: '10px', color: 'black' }} href = "https://github.com/Fiery-Warrior/Independent-Set-Algorithm/blob/Step2/main.py"/>
+  <a href="https://github.com/Fiery-Warrior/Independent-Set-Algorithm/blob/Step2/main.py" target="_blank" rel="noopener noreferrer">
+    <GitHubIcon style={{ fontSize: 40, marginRight: '10px', color: 'black' }}/>
   </a>
   <div className="theorem-rule">
     <Theorem/>
