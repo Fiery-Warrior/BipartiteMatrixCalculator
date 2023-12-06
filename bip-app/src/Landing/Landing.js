@@ -1,6 +1,7 @@
 import React from "react";
 import "./landing.css";
 import Typed from "react-typed";
+import icon2 from './icon2.png';
 
 const Landing = () => {
 
@@ -33,11 +34,11 @@ const Landing = () => {
         //   transform: "translateX(-50%)",
         // }}
       >
-      <h1 style={{color: "#252525"}}>Welcome to 
+<img src={icon2} alt="Icon" style={{ position: 'absolute', top: 0, right: 0, width: '6%', height: '11%' }} />      <h1 style={{color: "#252525"}}>Welcome to 
 
       the {" "}
           <Typed
-            strings={["Independent Set Algorithm", "Bipartite Matrix Calculator"]}
+            strings={["Bipartite Matrix Calculator", "Independent Set Algorithm"]}
             typeSpeed={120}
             backSpeed={140}
             loop

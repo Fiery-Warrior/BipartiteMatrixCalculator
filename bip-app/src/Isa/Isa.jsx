@@ -5,7 +5,7 @@ import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import { styled } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import Theorem from "./Theorem";
-
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Isa = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -214,15 +214,30 @@ const Isa = () => {
             </Typography>
           </div>
           <section className="languages">
-            <div>
-              <video width="620" height="440" controls>
+            {/* <div> */}
+              {/* <video width="620" height="440" controls>
                 <source src="/newCalc.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
+              <GitHubIcon/>
               <div className="theorem-rule">
                 <Theorem/>
               </div>
-            </div>
+            </div> */}
+<video width="620" height="440" controls>
+  <source src="/newCalc.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+<br/>
+<div style={{ display: 'flex', alignItems: 'center' }}>
+  <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer">
+    <GitHubIcon style={{ fontSize: 40, marginRight: '10px', color: 'black' }} href = "https://github.com/Fiery-Warrior/Independent-Set-Algorithm/blob/Step2/main.py"/>
+  </a>
+  <div className="theorem-rule">
+    <Theorem/>
+  </div>
+</div>
+
  
             {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/jZiZs8cZAKU?si=n-XcMhcay-rvQ-dK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
 
